@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Inter:wght@200&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+   
+
+
+    <title>Marchant</title>
+  </head>
+  <body>
+    <section class="hero_section">
+      <div class="hero_section_image">
+        <img src="Images/merchant_nav .png" alt=""  />
+      </div>
+
+      <div class="hero_section_content">
+       
+        <div class="hero_section_text">
+          <img src="Icon/white_logo-removebg-preview (1).png" width="100px" alt="" class="logo">
+          
+          <p class="paragraph_small_text">The Resell Revolution Waitlist</p>
+          <h1 class="bold_text">Boost your business, with zero marketing</h1>
+          <p style="background-color: black" class="paragraph_text">
+            Elevate your profit with our seamless reselling platform offering a
+            large network of resellers, while enjoying exclusive early access.
+          </p>
+        </div>
+
+        <form  method="GET" class="form">
+          <p class="form-text">
+            Be the first to from seamless reselling when we launch!
+          </p>
+        <input
+            type="text"
+            id="inputName"
+            name="name"
+            placeholder="Business Name"
+          />
+          <br />
+          <input
+            type="email"
+            id="inputEmail"
+            name="email"
+            placeholder="Email"
+          />
+        <br/>
+          <input
+          id="btn"
+          onclick="logInputInfo()"
+            type="submit"
+            value="Join the waitlist"
+            style="background-color: #fe3d00; color: white; border: none"
+          />
+          
+        </form>
+      </div>
+    </section>
+
+
+    <div class="circle">
+        <div class="small_circle" id="circle" style="background-color: #fe3d00"></div>
+      <div class="small_circle" id="circle" style="background-color: #d324ff"></div>
+      <div class="small_circle" id="circle" style="background-color: #157dfb"></div>
+    </div>
+
+    <section class="second_section_header">
+      <h1 class="second_section_header_bold">
+        Influencers ready to sell your products
+      </h1>
+      <p class="second_section_header_paragraph">
+        With a large network of active influencers, your business is ready for
+        the boost it needs
+      </p>
+    </section>
+
+
+ <section id="third_section">
+      <div id="third_section_shape">
+        <div id="white_section_shape">
+          <div class="img_words">
+            <img
+              src="Images/1st man.png"
+              alt=""
+              width="50px"
+              style="border-radius: 50px"
+            />
+            <div style="padding-left: 10px">
+              <div style="display: flex">
+                <h4 style="color: white">@Akinyuto-43</h4>
+                <div class="smaller_circle_container">
+                  <div class="smaller_circle"></div>
+                  <div
+                    class="smaller_circle" id="circle" 
+                    style="background-color: #fe3d00"
+                  ></div>
+                  <div
+                    class="smaller_circle" id="circle" 
+                    style="background-color: #d324ff"
+                  ></div>
+                  <div
+                    class="smaller_circle" id="circle" 
+                    style="background-color: #157dfb"
+                  ></div>
+                </div>
+              </div>
+              <p class="mini_text" style="color: white">
+                RESELA ID-
+                <span style="color: #d324ff; font-weight: 900">#45379</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="first-combined-shape">
+            <p class="first_inner_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+              tempora dolor
+            </p>
+            <div class="first-triangle"></div>
+          </div>
+          <div class="second-combined-shape">
+            <p class="second_inner_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+              tempora dolor
+            </p>
+            <div class="first-triangle"></div>
+          </div>
+        </div>
+        <div class="details">
+          <img
+            src="Icon/instagram.png"
+            alt=""
+            width="20px"
+            style="margin: 10px 15px"
+          />
+          <p class="big_text" style="padding: 5px 0 10px 0">Instagram</p>
+          <p class="mini_text" style="padding: 5px 20px">15.7K followers</p>
+        </div>
+        <div class="details">
+          <img
+            src="Icon/tiktok.png"
+            alt=""
+            width="20x"
+            height="25px"
+            style="margin-left: 15px"
+          />
+          <p class="big_text" style="margin-bottom: 10px">Tiktok</p>
+          <p class="mini_text" style="padding-left: 40px">35K followers</p>
+        </div>
+        <div class="details">
+          <img
+            src="Icon/youtube.png"
+            alt=""
+            width="20px"
+            height="20px"
+            style="margin: 5px 15px 0"
+          />
+          <p class="big_text" style="margin-left: -16px">Youtube</p>
+          <p class="mini_text" style="padding-left: 30px">25.8K subscribers</p>
+        </div>
+      </div>
+      <div id="third_section_shape">
+        <div id="white_section_shape">
+          <div class="img_words">
+            <img
+              src="Images/2nd man.png"
+              alt=""
+              width="50px"
+              style="border-radius: 50px"
+            />
+            <div style="padding-left: 10px">
+              <div style="display: flex">
+                <h4 style="color: white">@Akinyuto-43</h4>
+                <div class="smaller_circle_container">
+                  <div class="smaller_circle"></div>
+                  <div
+                    class="smaller_circle" id="circle" 
+                    style="background-color: #fe3d00"
+                  ></div>
+                  <div
+                    class="smaller_circle" id="circle" 
+                    style="background-color: #d324ff"
+                  ></div>
+                  <div
+                    class="smaller_circle" id="circle" 
+                    style="background-color: #157dfb"
+                  ></div>
+                </div>
+              </div>
+              <p class="mini_text" style="color: white">
+                RESELA ID-
+                <span style="color: #d324ff; font-weight: 900">#45379</span>
+              </p>
+            </div>
+          </div>
+          <div class="first-combined-shape">
+            <p class="first_inner_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+              tempora dolor
+            </p>
+            <div class="first-triangle"></div>
+          </div>
+          <div class="second-combined-shape">
+            <p class="second_inner_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+              tempora dolor
+            </p>
+            <div class="second-triangle"></div>
+          </div>
+        </div>
+        <div class="details">
+          <img
+            src="Icon/instagram.png"
+            alt=""
+            width="20px"
+            style="margin: 10px 15px"
+          />
+          <p class="big_text" style="padding: 5px 0 10px 0">Instagram</p>
+          <p class="mini_text" style="padding: 5px 20px">15.7K followers</p>
+        </div>
+        <div class="details">
+          <img
+            src="Icon/tiktok.png"
+            alt=""
+            width="20x"
+            height="25px"
+            style="margin-left: 15px"
+          />
+          <p class="big_text" style="margin-bottom: 10px">Tiktok</p>
+          <p class="mini_text" style="padding-left: 40px">35K followers</p>
+        </div>
+        <div class="details">
+          <img
+            src="Icon/youtube.png"
+            alt=""
+            width="20px"
+            height="20px"
+            style="margin: 5px 15px 0"
+          />
+          <p class="big_text" style="margin-left: -16px">Youtube</p>
+          <p class="mini_text" style="padding-left: 30px">25.8K subscribers</p>
+        </div>
+      </div>
+      <div id="third_section_shape">
+        <div id="white_section_shape">
+          <div class="img_words">
+            <img
+              src="Images/3rd man.png"
+              alt=""
+              width="50px"
+              style="border-radius: 50px"
+            />
+            <div style="padding-left: 10px">
+              <div style="display: flex">
+                <h4 style="color: white">@Akinyuto-43</h4>
+                <div class="smaller_circle_container">
+                  <div class="smaller_circle"></div>
+                  <div
+                    class="smaller_circle" id="circle" 
+                    style="background-color: #fe3d00"
+                  ></div>
+                  <div
+                    class="smaller_circle" id="circle" 
+                    style="background-color: #d324ff"
+                  ></div>
+                  <div
+                    class="smaller_circle" id="circle" 
+                    style="background-color: #157dfb"
+                  ></div>
+                </div>
+              </div>
+              <p class="mini_text" style="color: white">
+                RESELA ID-
+                <span style="color: #d324ff; font-weight: 900">#45379</span>
+              </p>
+            </div>
+          </div>
+          <div class="first-combined-shape">
+            <p class="first_inner_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+              tempora dolor
+            </p>
+            <div class="first-triangle"></div>
+          </div>
+          <div class="second-combined-shape">
+            <p class="second_inner_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+              tempora dolor
+            </p>
+            <div class="second-triangle"></div>
+          </div>
+        </div>
+        <div class="details">
+          <img
+            src="Icon/instagram.png"
+            alt=""
+            width="20px"
+            style="margin: 10px 15px"
+          />
+          <p class="big_text" style="padding: 5px 0 10px 0">Instagram</p>
+          <p class="mini_text" style="padding: 5px 20px">15.7K followers</p>
+        </div>
+        <div class="details">
+          <img
+            src="Icon/tiktok.png"
+            alt=""
+            width="20x"
+            height="25px"
+            style="margin-left: 15px"
+          />
+          <p class="big_text" style="margin-bottom: 10px">Tiktok</p>
+          <p class="mini_text" style="padding-left: 40px">35K followers</p>
+        </div>
+        <div class="details">
+          <img
+            src="Icon/youtube.png"
+            alt=""
+            width="20px"
+            height="20px"
+            style="margin: 5px 15px 0"
+          />
+          <p class="big_text" style="margin-left: -16px">Youtube</p>
+          <p class="mini_text" style="padding-left: 30px">25.8K subscribers</p>
+        </div>
+      </div>
+    </section> 
+
+     <section class="second_section_header">
+      <h1 class="second_section_header_bold">
+        Side hustlers ready to sell your products
+      </h1>
+      <p class="second_section_header_paragraph">
+        With a large network of active influencers, your business is ready for
+        the boost it needs
+      </p>
+    </section>
+
+    <section id="third_section">
+      <div id="third_section_shape">
+        <div id="image1_section_shape">
+          <div class="combined-shape">
+            <p class="inner_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+              tempora dolor
+            </p>
+            <div class="triangle"></div>
+          </div>
+        </div>
+        <div class="details">
+          <p class="big_text">Name</p>
+          <p class="mini_text">Emeka</p>
+        </div>
+        <div class="details">
+          <p class="big_text">Occupation</p>
+          <p class="mini_text">Construction Supervisor</p>
+        </div>
+        <div class="details">
+          <p class="big_text">Special Skils</p>
+          <p class="mini_text">Networking</p>
+        </div>
+        <div class="details">
+          <p class="mini_text">RESELA</p>
+          <p class="macro_text">
+            ID- <span style="color: #d324ff; font-weight: 900">#45379</span>
+          </p>
+        </div>
+      </div>
+      <div id="third_section_shape">
+        <div id="image2_section_shape">
+          <div class="combined-shape">
+            <p class="inner_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+              tempora dolor
+            </p>
+            <div class="triangle"></div>
+          </div>
+        </div>
+        <div class="details">
+          <p class="big_text">Name</p>
+          <p class="mini_text">Jude</p>
+        </div>
+        <div class="details">
+          <p class="big_text">Occupation</p>
+          <p class="mini_text">Student</p>
+        </div>
+        <div class="details">
+          <p class="big_text">Special Skils</p>
+          <p class="mini_text">Networking</p>
+        </div>
+        <div class="details">
+          <p class="mini_text">RESELA</p>
+          <p class="macro_text">
+            ID- <span style="color: #d324ff; font-weight: 900">#45379</span>
+          </p>
+        </div>
+      </div>
+      <div id="third_section_shape">
+        <div id="image3_section_shape">
+          <div class="combined-shape">
+            <p class="inner_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
+              tempora dolor
+            </p>
+            <div class="triangle"></div>
+          </div>
+        </div>
+        <div class="details">
+          <p class="big_text">Name</p>
+          <p class="mini_text">Juliet</p>
+        </div>
+        <div class="details">
+          <p class="big_text">Occupation</p>
+          <p class="mini_text">HR Manager</p>
+        </div>
+        <div class="details">
+          <p class="big_text">Special Skils</p>
+          <p class="mini_text">Networking</p>
+        </div>
+        <div class="details">
+          <p class="mini_text">RESELA</p>
+          <p class="macro_text">
+            ID- <span style="color: #d324ff; font-weight: 900" id="letter">#45379</span>
+          </p>
+        </div>
+      </div>
+    </section> 
+    <section class="grey_section">
+      <div class="second_section_header">
+        <h1 class="third_section_header_bold">
+          You're few seconds away from <span id="circle" class="circle-on-words">upscaling</span> your business
+        </h1>
+        <p class="second_section_header_paragraph">
+          Join the 250 businesses waiting in line
+        </p>
+        <form action="/submit_form" method="post" class="input" style="margin-top: 6rem;">
+          <input
+            type="text"
+            id="inputName"
+            name="name"
+            class="second_last_input"
+            placeholder="Business Name"
+          />
+        <br/>
+          <input
+            type="email"
+            id="inputEmail"
+            name="email"
+            placeholder="example@email.com"
+            class="second_last_input"
+          /><br />
+        </form>
+        <input
+          type="submit"
+          value="Join the waitlist" 
+          class="last_sumit"
+          onclick="saveToLocalStorage()"
+        />
+      </div>
+    </section> 
+    <div class="circle">
+        <div class="second_small_circle" id="circle" style="background-color: #fe3d00"></div>
+        <div class="second_small_circle" id="circle" style="background-color: #d324ff"></div>
+        <div class="second_small_circle" id="circle" style="background-color: #157dfb"></div>
+      </div>
+
+      <section class="phone_section">
+        <div class="second_section_header">
+        <h1 class="second_section_header_bold" style="font-size: 30px;">
+         Why Resela?
+        </h1>
+        <p class="second_section_header_paragraph">
+          Find out what makes us unique!
+        </p>
+    </div>
+    <div class="slant_circle">
+        <img src="Icon/circle.png" alt="" style="margin-left: 2rem;">
+    </div>
+        <div class="slant_circle_content">
+            <div class="slant_circle_text">
+            <h1 class="bold_text_phone_image">Free sign up</h1>
+            <p class="paragraph_text_phone">At Resela, we simplify reselling. We offer a diverse range of sought-after products, efficient inventory managemnent, and seamless logistics to elevate your business. Our focus is on your success, making reselling easy, profitable, and enjoyable.</p>
+                
+             </div>
+             <div>
+                <img src="Images/first phone.png" alt=""  class="phone_image">
+             </div>
+        </div>
+      
+      </section>
+      <hr>
+    <section>
+      <div class="orange_circle"></div>
+      <div class="content">
+      <img src="Images/second_phone.png" alt=""  class="second_phone">
+            <div class="second_phone_text">
+            <h1 class="bold_text_phone">Huge Product exposure via Marketplace</h1>
+            <p class="third_phone_text">At Resela, we simplify reselling. We offer a diverse range of sought-after products, efficient inventory managemnent, and seamless logistics to elevate your business.</p> 
+             </div>   
+            </div>        
+</section>
+
+<hr style="margin-top: -15rem;">
+<section class="phone_section">
+<div class="slant_circle">
+    <div class="scale_container">
+        <div class="slant_circle_text">
+        <h1 class="bolder_text_phone">Advanced Tracking, Statistics & Reporting.</h1>
+        <p class="paragraph_text_phone" style="margin-top: 3.5rem;">At Resela, we simplify reselling. We offer a diverse range of sought-after products, efficient inventory managemnent, and seamless logistics to elevate your business. </p>
+            
+         </div>
+         <div>
+            <img src="Images/image_scale.png" alt="" class="image_scale" >
+         </div>
+    </div>
+  </section>
+<hr>
+
+<section>
+    <div class="second-slant">
+        <img src="Icon/circle.png" alt="" >
+    </div>
+    <div class="content">
+    <img src="Images/last_phone.png" alt=""  class="last_phone">
+          <div class="second_phone_text new" style="margin-top: 3.5rem;">
+          <h1 class="bold_text_phone_image change">
+            Easy sign up process<h1>
+          <p class="last_paragraph_text">At Resela, we simplify reselling. We offer a diverse range of sought-after products, efficient inventory managemnent, and seamless logistics to elevate your business.</p> 
+           </div>   
+          </div> 
+          <div class="last-slant">
+            <img src="Icon/circle.png" alt="" width="120px">  
+            </div>  
+          </div>   
+</section>
+
+
+<section class="last_section">
+<div class="before_footer">
+  <form action="" method="post" class="last_form">
+    <p class="form-text">
+      Join the businesses waiting to profit from seamless reselling when we launch!
+    </p>
+    <input
+      type="text"
+      id="inputName"
+      name="name"
+      placeholder="Business Name"
+     
+    /><br/>
+    <input
+      type="email"
+      id="inputEmail"
+      name="email"
+      placeholder="Email"
+    /><br />
+    <input
+    onclick="saveToLocalStorage()"
+      type="submit"
+      value="Join the waitlist"
+      style="background-color: #fe3d00; color: white; border: none"
+    />
+  </form>
+<div class="last_image">
+  <img src="Images/last_image.png" alt="">
+</div>
+  
+</div>
+<p style="color: white; font-size: 12px; margin-left: 4rem; margin-top: 3rem;">&copy; KWE4 Africa Venture Studio</p>
+
+</section>
+
+<div class="call_container">
+  
+ <div>
+  <img src="Icon/call_logo-removebg-preview.png" alt=""class="white_logo" >
+ </div>
+ <div>
+  <h4 class="text">Need more information?</h1>
+    <p class="num">Talk to a Resela Agent for free 
+    </p>
+    <p class="num">(+234) 70 685 754 45</p> 
+ </div>
+  
+</div>
+
+
+<footer>
+  <div class="background_color">
+  <div><img src="Icon/white_logo-removebg-preview (1).png" alt="" class="last_logo"></div>
+  <div class="list">
+    <ul>
+      <li>
+        <a href="#">About Us</a>
+      </li>
+      <li>
+        <a href="#">The Resell Revolution</a>
+      </li>
+      <li>
+        <a href="#">Community</a>
+      </li>
+    </ul>
+  </div>
+  <div class="list">
+    <ul>
+      <li>
+        <a href="#">Business Tools</a>
+      </li>
+      <li>
+        <a href="#" style="color: #fe3d00;">Affiliate Sign Up</a>
+      </li>
+      <li>
+        <a href="#">Blogs</a>
+      </li>
+    </ul>
+  </div>
+  <div class="list">
+    <ul>
+      <li>
+      <a href="#">Business Tools</a>
+    </li>
+    <li>
+      <a href="#" style="color: #fe3d00;">Affiliate Sign Up</a>
+    </li>
+    <li>
+      <a href="#">Blogs</a>
+    </li>
+    </ul>
+  </div>
+  <div class="social" style="margin-right: 40px;">
+    <img src="Icon/twitter-removebg-preview.png" alt="" width="30px">
+    <img src="Icon/instagram-removebg-preview.png" alt="" width="25px">
+    <img src="Icon/facebook-removebg-preview.png" alt="" width="20px">
+  </div>
+  </div>
+
+
+  <div class="circle">
+    <div class="footer_circle" id="circle" style="background-color: #fe3d00"></div>
+  <div class="footer_circle" id="circle" style="background-color: #d324ff"></div>
+  <div class="footer_circle" id="circle" style="background-color: #157dfb"></div>
+</div>
+  <p class="company_name">&copy; KWE4 Africa Venture Studio <span>2023-2026</span></p>
+</footer>
+
+
+
+  </body>
+</html>
