@@ -485,7 +485,9 @@ body {
   background-color: transparent;
 }
 
-
+.move-form{
+  margin-top: -2rem;
+}
 .last_sumit {
   background-color: #fe3d00;
   color: white;
@@ -752,10 +754,6 @@ footer{
   flex-wrap: wrap;
 }
 
-.footer-links {
-  flex: 1;
-  padding-right: 40px;
-}
 
 .footer-links ul {
   display: flex;
@@ -855,7 +853,11 @@ input {
   .content-left .bottom-p {
     font-size: 15px;
   }
-
+  .footer-links {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
   .footer-links {
     padding-right: 50px;
   }
@@ -1351,11 +1353,7 @@ input {
 margin-top: -10rem;
   }
 
-  .social {
-    margin-top: 20px;
-    padding-left: 6.8rem;
-  }
-
+ 
   .footer_circle {
     position: relative;
     bottom: 12.9rem;
